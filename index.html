@@ -5,6 +5,7 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
    <script src="https://cdn.tailwindcss.com"></script>
+   <script src="https://kit.fontawesome.com/b43e7f1a18.js" crossorigin="anonymous"></script>
    <script>
       tailwind.config = {
         theme: {
@@ -16,9 +17,90 @@
         }
       }
     </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <style>
+      .font-type{ font-family: "Manrope", sans-serif;}
+    </style>
    <title>Home service</title>
 </head>
-<body>
+<body class="font-type">
+   <header>
+       <nav class="  lg:container mx-auto">
+         <div class="navbar bg-base-100">
+            <div class="navbar-start flex-row-reverse  justify-between  ">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M4 6h16M4 12h8m-8 6h16" />
+                  </svg>
+                </div>
+                <ul
+                  tabindex="0"
+                  class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                  <li><a>Home</a></li>
+                  <li><a href="">Service</a></li>
+                  <li><a>Portfolio</a></li>
+                  <li><a>Blogs</a></li>
+                  <li><a>About Us</a></li>
+                </ul>
+              </div>
+              <a class="btn btn-ghost text-xl font-bold"><i class="fa-solid fa-circle-arrow-right -rotate-45"></i> Rinterio</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1">
+                <li><a>Home</a></li>
+                <li><a href="">Service</a></li>
+                <li><a>Portfolio</a></li>
+                <li><a>Blogs</a></li>
+                <li><a>About Us</a></li>
+              </ul>
+            </div>
+            <div class="navbar-end  space-x-10">
+               <div>
+                  <i class="fa-solid fa-magnifying-glass invisible lg:visible"></i>
+               </div>
+               <div>
+                  <i class="fa-solid fa-cart-shopping invisible lg:visible"></i>
+               </div>
+               
+              <a class="btn font-bold invisible lg:visible">Book Consult<i class="fa-solid fa-circle-arrow-right -rotate-45"></i></a>
+            </div>
+          </div>
+       </nav>
+
+       <section>
+        <div class=" my-10 border-2 h-[60vh]   lg:container mx-auto">
+           <div class="border-2">
+            <img class=" w-[60vw] ml-[25vw] lg:w-auto    "    src="assets/banner.png" alt="">
+           </div>
+
+           <div>
+            <h1 class="text-2xl font-bold ml-[17vw]      lg:text-5xl font-extrabold"> A barn house of <br class="lg:hidden"> this design has a <br>
+                 <span class="lg:ml-[5vw]">striking appearance.</span>
+            </h1>
+            <p class="mt-8 ml-5  lg:ml-[12vw]">We have many luxurious houses for our client.These houses provide better accomodation and reliability to our clients. <br class="hidden lg:visible">  Thus clients happiness is our top most <span class="ml-[35vw] lg:ml-0">priority.</span>  </p>
+           </div>
+            <div class="mt-7">
+                <button class="btn w-[70vw] ml-[10vw] rounded-3xl bg-green-300  lg:w-1/6 lg:ml-[30vw]">View More <i class="fa-solid fa-circle-arrow-right fa-xl   -rotate-45"></i></button>
+            </div>
+        </div>
+
+
+       </section>
+   </header>
+
+
    
 </body>
 </html>
