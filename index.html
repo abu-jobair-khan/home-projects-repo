@@ -12,6 +12,12 @@
           extend: {
             colors: {
               clifford: '#da373d',
+              'para': 'rgba(171, 239, 95, 1)',
+              'concept':'rgba(231, 193, 211, 1)',
+              'design':'rgba(239, 218, 110, 1)',
+              'sprvsn':'rgba(164, 218, 195, 1)',
+              'process':'rgba(119, 170, 234, 1)',
+
             }
           }
         }
@@ -74,20 +80,20 @@
                   <i class="fa-solid fa-cart-shopping invisible lg:visible"></i>
                </div>
                
-              <a class="btn font-bold invisible lg:visible">Book Consult<i class="fa-solid fa-circle-arrow-right -rotate-45"></i></a>
+              <a class="btn font-bold invisible lg:visible lg:bg-para">Book Consult<i class="fa-solid fa-circle-arrow-right -rotate-45"></i></a>
             </div>
           </div>
        </nav>
 
        <section>
-        <div class=" my-10 border-2 h-[60vh]   lg:container mx-auto">
+        <div class=" my-10 h-[60vh]   lg:container mx-auto">
            <div class="border-2">
             <img class=" w-[60vw] ml-[25vw] lg:w-auto    "    src="assets/banner.png" alt="">
            </div>
 
            <div>
-            <h1 class="text-2xl font-bold ml-[17vw]      lg:text-5xl font-extrabold"> A barn house of <br class="lg:hidden"> this design has a <br>
-                 <span class="lg:ml-[5vw]">striking appearance.</span>
+            <h1 class="text-2xl font-bold ml-[17vw]    lg:leading-[60px]  lg:text-5xl font-extrabold"> A barn house of <br class="lg:hidden"> this design has a <br>
+                 <span class=" lg:ml-[5vw] ">striking appearance.</span>
             </h1>
             <p class="mt-8 ml-5  lg:ml-[12vw]">We have many luxurious houses for our client.These houses provide better accomodation and reliability to our clients. <br class="hidden lg:visible">  Thus clients happiness is our top most <span class="ml-[35vw] lg:ml-0">priority.</span>  </p>
            </div>
@@ -95,10 +101,80 @@
                 <button class="btn w-[70vw] ml-[10vw] rounded-3xl bg-green-300  lg:w-1/6 lg:ml-[30vw]">View More <i class="fa-solid fa-circle-arrow-right fa-xl   -rotate-45"></i></button>
             </div>
         </div>
-
-
        </section>
    </header>
+
+   <div>
+    <img class=" invisible lg:visible  lg:relative top-[19vh] left-[8vw]"   src="assets/Vector.png" alt="">
+   </div>
+
+
+   <main class="bg-slate-200 h-[300vh] lg:mt-16">
+      <div class=" lg:container mx-auto  lg:flex">
+          <div class="lg:mt-[10vh]">
+            <button class="w-[30vw] h-[6vh] bg-white rounded-3xl mt-6 ml-[30vw] text-md font-bold lg:w-[9vw] lg:ml-0"><i class="fa-solid fa-arrow-right"></i>  About Us</button>
+            <h2 class="text-2xl font-extrabold mt-5 text-center lg:text-5xl lg:text-left lg:leading-[60px]">We Design thoughtful,<br>
+            Liveable Spaces.
+            </h2>
+            <p class="w-full p-5    lg:mt-10   lg:w-[30vw] lg:p-0">Accomodation is one of five basic need of human.Hence it must be sound and healthy enogh. Quality should be ensured maintained and checked properly</p>
+
+            <div class= " mt-7 ml-10 p-5  bg-white w-[80vw] h-[24vh] rounded-xl flex flex-row  lg:w-[30vw] lg:ml-0 lg:h-[20vh]">
+                  <div class="basis-1/3">
+                      <img class="h-[60px] w-[60px]"  src="assets/commercial.png" alt="">
+                  </div>
+                  <div class="basis-2/3">
+                    <h3 class="text-lg font-bold">Commercial</h3>
+                    <p class="text-sm mt-4">Commercial builsings multistoried and multifunctional have many facility like fire exit , air ventilation etc.</p>
+                  </div>
+            </div>
+
+            <div class= " mt-5 ml-10 p-5  bg-white w-[80vw] h-[24vh] rounded-xl flex flex-row  lg:w-[30vw] lg:ml-0 lg:h-[20vh]">
+              <div class="basis-1/3">
+                  <img class="h-[60px] w-[60px]"  src="assets/residential.png" alt="">
+              </div>
+              <div class="basis-2/3">
+                <h3 class="text-lg font-bold">Residential</h3>
+                <p class="text-sm mt-4">Residential appartments are wide spacious upgaraded with internet ,gas, electricity and swerage system.Also have garage and warehouse facility.</p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <img class=" mt-6 ml-[10vw] w-[80vw] h-[220px] lg:mt-0 lg:ml-0 lg:w-[40vw] lg:h-[76vh] lg:mt-[15vh] lg:ml-12" src="assets/Rectangle.png" alt="">
+          </div>
+      </div>
+
+      <div class="lg:container mx-auto">
+        <button class="btn bg-white rounded-3xl mt-[5vh] ml-[37vw] lg:ml-[30vw]"><i class="fa-solid fa-arrow-right"></i> How we work</button>
+        <h2 class="text-2xl font-extrabold mt-7 ml-[25vw] lg:text-5xl     lg:ml-[24vw]">Our Work Process</h2>
+        <p class="w-full p-5 lg:ml-[17vw] lg:w-[40vw]">We have a specialized team who manages our projects from scratch.We along with our customer    <span class="ml-0       lg:ml-[9vw]">can rely on our team.We are always for you.</span></p>
+
+        <div class=" lg:mt-[5vh] lg:grid grid-cols-4 ">
+            <div class="bg-concept w-[85vw] h-[27vh] ml-5 mt-4 rounded-2xl lg:w-[17vw]">
+              <img class="w-[80px] h-[80px] pt-5 pl-5"   src="assets/concept.png" alt="">
+              <h2 class="text-xl font-bold mt-3 ml-5">Concept</h2>
+              <p class="p-4 text-sm">Our team prepare a plan for your project.You can scrutinize it and can make changes on it.</p>
+            </div>
+            <div class="bg-design w-[85vw] h-[27vh] ml-5 mt-4 rounded-2xl  lg:w-[17vw]">
+              <img class="w-[80px] h-[80px] pt-5 pl-5"   src="assets/flow-chart.png" alt="">
+              <h2 class="text-xl font-bold mt-3 ml-5">Design-Process</h2>
+              <p class="p-4 text-sm">Our team prepare a plan for your project.You can scrutinize it and can make changes on it.</p>
+            </div>
+            <div class="bg-sprvsn w-[85vw] h-[27vh] ml-5 mt-4 rounded-2xl  lg:w-[17vw]">
+              <img class="w-[80px] h-[80px] pt-5 pl-5"   src="assets/vision.png" alt="">
+              <h2 class="text-xl font-bold mt-3 ml-5">Vision</h2>
+              <p class="p-4 text-sm">Our team prepare a plan for your project.You can scrutinize it and can make changes on it.</p>
+            </div>
+            <div class="bg-process w-[85vw] h-[27vh] ml-5 mt-4 rounded-2xl  lg:w-[17vw]">
+              <img class="w-[80px] h-[80px] pt-5 pl-5"   src="assets/budget-planning.png" alt="">
+              <h2 class="text-xl font-bold mt-3 ml-5">Planning</h2>
+              <p class="p-4 text-sm">Our team prepare a plan for your project.You can scrutinize it and can make changes on it.</p>
+            </div>
+            
+        </div>
+
+      </div>
+
+   </main>
 
 
    
