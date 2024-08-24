@@ -22,6 +22,7 @@
               'process':'rgba(119, 170, 234, 1)',
               'xplore':'rgba(171, 239, 95, 0.2)', 
               'connect':'rgba(171, 239, 95, 0.2)',
+              'mail':'rgba(171, 239, 95, 1)',
             }
             
           }
@@ -232,11 +233,29 @@
       
    </main>
 
-   <main class="h-[70vh] bg-cover bg-[url('assets/bg.jpg')]">
-    
+   <main class="h-[117vh] bg-cover bg-[url('assets/bg.jpg')] lg:h-[95vh] ">
+
+
+    <div class="lg:container mx-auto">
+      <button class="btn bg-connect w-[50vw] ml-[24vw] mt-[4vh] rounded-3xl  text-xl font-bold lg:w-[15vw] lg:text-lg lg:ml-[30vw]"><i class="fa-solid fa-arrow-right"></i>Let's Connect</button>
+    <h1 class="mt-[4vh] ml-[17vw] text-3xl font-extrabold lg:ml-[22vw] lg:text-5xl">Let's Disscuss Next <br class="lg:hidden">
+            <span class="ml-20 lg:ml-0">project</span>
+    </h1>
+    <p class="w-[80vw] mt-6 ml-9  lg:w-[50vw] lg:ml-[15vw]">Please fill up the following form for your desired <span class="ml-7 lg:ml-0">project.any thing in the form can be</span> <span class="ml-[30vw] lg:ml-0">considerable</span><span class="invisible lg:visible">.Informations are editable and <span class="lg:ml-[17vw]">can be removed</span></span></p>
+
+    <form class="mt-6 lg:mt-[6vh]"  action="">
+       <input class="ml-7 w-[84vw] h-[6vh] rounded-2xl placeholder:pl-4 lg:w-[35vw]" placeholder="First Name*"  type="text"><br class="lg:hidden">
+       <input class="ml-7 mt-6    w-[84vw] h-[6vh] rounded-2xl placeholder:pl-4 lg:w-[35vw]" placeholder="Last Name*"  type="text"><br>
+       <input class="ml-7 mt-6       w-[84vw] h-[6vh] rounded-2xl placeholder:pl-4 lg:w-[35vw]" placeholder="Phone Number"  type="text"><br class="lg:hidden">
+       <input class="ml-7 mt-6      w-[84vw] h-[6vh] rounded-2xl placeholder:pl-4 lg:w-[35vw]" placeholder="Mail Address"  type="text"><br>
+       <textarea  class=" resize-none   ml-7 mt-6 rounded-3xl placeholder:pl-6 placeholder:pt-4 "   placeholder="write your message here....."       name="" id="" cols="43" rows="10"></textarea>
+       <button class="btn bg-mail mt-6 ml-7 w-[84vw] rounded-3xl text-xl font-bold lg:w-[70vw]">Send mail<i class="fa-solid fa-circle-arrow-right -rotate-45"></i></button>
+    </form>
+    </div>
+
    </main>
 
-
+ 
    
 </body>
 </html>
